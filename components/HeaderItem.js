@@ -2,7 +2,7 @@
 function HeaderItem({ Icon, title }) {
     return (
         <div>
-            <Icon classsName="h-8" />
+            <Icon className="h-8" />
             <p>{title}</p>
         </div>
     )
