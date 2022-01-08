@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 // import Footer from '../components/Footer'
 import Header from '../components/Header'
-// import Nav from '../components/Nav'
+import Nav from '../components/Nav'
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
       {/* header */}
 
       {/* Nav */}
-      {/* <Nav /> */}
+      <Nav />
 
       {/* footer */}
       {/* <Footer /> */}
