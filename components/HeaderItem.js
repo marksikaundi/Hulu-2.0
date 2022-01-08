@@ -1,7 +1,8 @@
+
 function HeaderItem({ Icon, title }) {
     return (
         <div>
-            <Icon />
+            <Icon classsName="h-8" />
             <p>{title}</p>
         </div>
     )

@@ -1,9 +1,11 @@
 module.exports = {
-  mode: 'jit',
-  purge: ['./pages/**/*.{js,tx,jsx,tsx}'],
-  content: [],
+  mode: "jit",
+  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
   },
-  plugins: [],
-}
+  variants: {
+    extend: {},
+  },
+  plugin: [],
+};
